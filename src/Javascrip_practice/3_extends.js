@@ -15,14 +15,14 @@ class User {
   
 class TrialUser extends User {
     trialEnding(){
-      console.log('Your trial will be ending soon, ' + this.name + '.' + ' Would you like to join our program?');
+      console.log('Your trial will be ending soon, ' + this.name + '.' + ' Would you like to join our program');
     }
 }
   
 var anonDude = new User("Anonymous");
 anonDude.greet();
 anonDude.status();
-​
+
 //Instance of TrialUser class
 var trialUser = new TrialUser("Paul");
 trialUser.greet();
